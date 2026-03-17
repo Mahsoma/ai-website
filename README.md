@@ -1,2 +1,2 @@
-# ai-website
+# MAHSOMA AI
 ai educational website project
