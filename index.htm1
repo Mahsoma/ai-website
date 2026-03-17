@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Learning Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Artificial Intelligence 🤖</h1>
+        <p>Welcome to my AI project website</p>
+    </header>
+
+    <nav>
+        <button onclick="showSection('home')">Home</button>
+        <button onclick="showSection('about')">About AI</button>
+        <button onclick="showSection('examples')">Examples</button>
+        <button onclick="showSection('quiz')">Quiz</button>
+    </nav>
+
+    <section id="home">
+        <h2>About Me</h2>
+        <p>My name is [اكتب اسمك هنا]</p>
+        <p>I am a student in AI department</p>
+    </section>
+
+    <section id="about" class="hidden">
+        <h2>What is AI?</h2>
+        <p>Artificial Intelligence is the ability of machines to think and learn like humans.</p>
+    </section>
+
+    <section id="examples" class="hidden">
+        <h2>Examples of AI</h2>
+        <ul>
+            <li>Chatbots like ChatGPT</li>
+            <li>Voice assistants</li>
+            <li>Self-driving cars</li>
+        </ul>
+    </section>
+
+    <section id="quiz" class="hidden">
+        <h2>Simple Quiz</h2>
+        <p>Is AI used in real life?</p>
+        <button onclick="answer('yes')">Yes</button>
+        <button onclick="answer('no')">No</button>
+        <p id="result"></p>
+    </section>
+
+    <footer>
+        <p>Made by AI Student ❤️</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
